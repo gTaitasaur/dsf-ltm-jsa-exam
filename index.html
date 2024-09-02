@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conversor de monedas</title>
+  <link href='./assets/css/style.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="title">
+    <hr>
+    <h1>Conversor de monedas nacional</h1>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="ingreso">
+      <h2>Pesos CLP</h2>
+      <input type="number" id="pesos" />
+    </div>
+    <div class="convertOption">
+      <label for="monedas"><h3>Moneda a convertir:</h3></label>
+      <select id="monedas" name="monedas">
+          <option value="uf">Unidad de fomento (UF)</option>
+          <option value="euro">Euro</option>
+          <option value="utm">Unidad Tributaria Mensual (UTM)</option>
+      </select>
+      <button id="convertir" type="button">CONVERTIR</button>
+
+      <p id="resultado">Presiones el botón CONVERTIR para ver el resultado aquí.</p>
+    </div>
+  </div>
+
+  <script defer type="text/javascript" src="./assets/js/main.js"></script>
+</body>
+</html>
